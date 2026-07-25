@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(135deg,#112b3c,#4e4376);
+    min-height:100vh;
+}
+
+.card{
+    transition:0.3s;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    border-radius:15px 15px 0 0;
+}
+
+.container{
+    max-width:1200px;
+}
+
+input{
+    max-width:500px;
+    margin:auto;
+}
